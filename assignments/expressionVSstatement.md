@@ -57,7 +57,7 @@ function knowWhy(value) {
     return "No"
   }
 }
-add(211);
+knowWhy(211);
 ```
 
 7. What is the output or error of the code below.
@@ -70,7 +70,7 @@ function knowWhy(value) {
     return "No"
   }
 }
-add(21);
+knowWhy(21);
 ```
 
 8. What is the output or error of the code below.
@@ -79,5 +79,5 @@ add(21);
 function isItIf(ifElse) {
   return ifElse;
 }
-add(if(true){console.log('Testing')});
+isItIf(if(true){console.log('Testing')});
 ```
